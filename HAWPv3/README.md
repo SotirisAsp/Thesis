@@ -32,7 +32,9 @@ sh downloads.sh
 - Replace hawp/ssl/predict.py with predict.py from this repo.
    
 ## Inferemce
-- Run HAWPv3 for multiple images with Run_hawp.py 
+- Run HAWPv3 for multiple images with Run_hawp.py
+1) Specify input_folder and output_folder
+2) ext : (1) png -> images with wireframes (2) json -> json file with lines and junctions (3) txt -> txt with th predicted lines
 ```bash
   python Run_hawp.py
   ```
