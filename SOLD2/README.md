@@ -19,7 +19,12 @@ SOLD² is integrated into [kornia](https://github.com/kornia/kornia) library sin
 
 ### Installation
 
-We recommend using this code in a Python environment (e.g. venv or conda). The following script installs the necessary requirements with pip:
+We recommend using this code in a Python environment (e.g. venv or conda). 
+```bash
+conda create -n sold2_env python=3.8 -y
+conda activate sold2_env
+```
+The following script installs the necessary requirements with pip:
 ```bash
 pip install -r requirements.txt
 ```
