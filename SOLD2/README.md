@@ -30,5 +30,3 @@ Install the Python package:
 ```bash
 pip install -e .
 ```
-
-You can download the version of the [Wireframe dataset](https://github.com/huangkuns/wireframe) that we used during our training and testing [here](https://www.polybox.ethz.ch/index.php/s/IfdEf7RoHol7jeg). This repository also includes some files to train on the [Holicity dataset](https://holicity.io/) to add more outdoor images, but note that we did not extensively test this dataset and the original paper was based on the Wireframe dataset only.
