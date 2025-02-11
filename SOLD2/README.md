@@ -2,7 +2,7 @@
 
 Method for extracting line segments from images. The outputs are npz files with keys [’line_seg’, ’descriptors’]
 
-Original repo : [SOLD2]([https://github.com/cherubicXN/hawp](https://github.com/cvg/SOLD2))
+Original repo : [SOLD2]([[https://github.com/cherubicXN/hawp](https://github.com/cvg/SOLD2)])
 
 ## Usage
 
