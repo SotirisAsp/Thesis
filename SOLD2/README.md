@@ -55,4 +55,4 @@ python -m sold2.export_line_features --img_list <list to a txt file containing t
 python -m sold2.export_line_features --img_list wireframe.txt --output_folder out --checkpoint_path pretrained_models/sold2_wireframe.tar
 ```
 
-Requires a txt all the image paths. (img_list)
+Requires a txt with all the image paths. (img_list)
