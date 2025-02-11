@@ -27,3 +27,7 @@ python -c "import torch; print(torch.cuda.is_available())" # Check if the instal
 ```bash
 sh downloads.sh
 ```
+
+## Changes
+- Replace hawp/ssl/predict.py with predict.py from this repo.
+   
