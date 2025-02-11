@@ -31,3 +31,5 @@ sh downloads.sh
 ## Changes
 - Replace hawp/ssl/predict.py with predict.py from this repo.
    
+## Inferemce
+- Run HAWPv3 for multiple images with Run_hawp.py
