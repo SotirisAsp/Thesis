@@ -3,7 +3,7 @@ import subprocess
 import time
 
 input_folder = r'/mnt/c/Users/sotas/TESTS/HAWP/hawp/datasets/dexi'
-output_folder = r'/mnt/c/Users/sotas/TESTS/HAWP/hawp/docs/figures/dexi_out1111'  
+output_folder = r'/mnt/c/Users/sotas/TESTS/HAWP/hawp/docs/figures/dexi_out'  
 
 for root, dirs, files in os.walk(input_folder):
     if files:  
