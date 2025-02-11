@@ -5,11 +5,6 @@
 - **SOLD2**
 
 ## 📂 Δομή του Repository
-- `DeepLSD/` → Περιέχει οδηγίες για το DeepLSD.
-- `HAWPv3/` → Περιέχει οδηγίες για το HAWPv3.
-- `SOLD2/` → Περιέχει οδηγίες για το SOLD2.
-
-## Evaluation Datasets
-- HPatches Dataset (Sequence Release) : https://www.kaggle.com/datasets/javidtheimmortal/hpatches-sequence-release
-- RDNIM Dataset : 
-
+- `DeepLSD/` → Instructions for implementing the DeepLSD method.
+- `HAWPv3/` → Instructions for implementing the HAWPv3 method.
+- `SOLD2/` → Instructions for implementing the SOLD2 method.
