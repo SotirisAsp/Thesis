@@ -30,3 +30,22 @@ Install the Python package:
 ```bash
 pip install -e .
 ```
+### Pretrained models
+
+We provide the checkpoints of two pretrained models:
+- [sold2_synthetic.tar](https://cvg-data.inf.ethz.ch/SOLD2/sold2_synthetic.tar): SOLD² detector trained on the synthetic dataset only.
+- [sold2_wireframe.tar](https://cvg-data.inf.ethz.ch/SOLD2/sold2_wireframe.tar): full version of SOLD² trained on the Wireframe dataset.
+ 
+Note that you do not need to untar the models, you can directly used them as they are.
+
+
+### How to use it
+
+We provide a [notebook](notebooks/match_lines.ipynb) showing how to use the trained model of SOLD². Additionally, you can use the model to export line features (segments and descriptor maps) as follows:
+```bash
+python -m sold2.export_line_features --img_list <list to a txt file containing the path to all the images> --output_folder <path to the output folder> --checkpoint_path <path to your best checkpoint,>
+```
+python -m sold2.export_line_features --img_list wireframe.txt --output_folder out --checkpoint_path pretrained_models/sold2_wireframe.tar
+
+
+You can tune some of the line detection parameters in `config/export_line_features.yaml`, in particular the 'detect_thresh' and 'inlier_thresh' to adapt them to your trained model and type of images. As the line detection can be sensitive to the image resolution, we recommend using it with images in the range 300~800 px per side.
