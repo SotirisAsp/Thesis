@@ -50,7 +50,7 @@ Note that you do not need to untar the models, you can directly used them as the
 
 ### How to use it
 
-We provide a [notebook](notebooks/match_lines.ipynb) showing how to use the trained model of SOLD². Additionally, you can use the model to export line features (segments and descriptor maps) as follows:
+You can use the model to export line features as follows:
 ```bash
 python -m sold2.export_line_features --img_list <list to a txt file containing the path to all the images> --output_folder <path to the output folder> --checkpoint_path <path to your best checkpoint,>
 ```
@@ -59,4 +59,5 @@ python -m sold2.export_line_features --img_list <list to a txt file containing t
 python -m sold2.export_line_features --img_list wireframe.txt --output_folder out --checkpoint_path pretrained_models/sold2_wireframe.tar
 ```
 
-Requires a txt with all the image paths. (img_list)
+1) Create the output folder before RUN export_line_features.py
+2) Requires a txt with all the image paths. (img_list)
