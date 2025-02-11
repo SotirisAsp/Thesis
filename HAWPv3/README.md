@@ -1,6 +1,5 @@
 ## Installation 
 <details>
-<summary><b>Anaconda</b></summary>
 
 - Clone the code repo: ``git clone https://github.com/cherubicXN/hawp.git``.
 - Install ninja-build by ``sudo apt install ninja-build``.
