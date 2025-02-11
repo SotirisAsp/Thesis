@@ -1,6 +1,6 @@
 # Holistically-Attracted Wireframe Parsing: From Supervised Learning to Self-Supervised Learning
 
-Method for extracting wireframes (lines+junctions) from images.
+Method for extracting wireframes (lines+junctions) from images. The implemantation is for HAWPv3 version.
 
 Original repo : [HAWP](https://github.com/cherubicXN/hawp)
 
