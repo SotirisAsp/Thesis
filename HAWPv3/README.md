@@ -33,3 +33,6 @@ sh downloads.sh
    
 ## Inferemce
 - Run HAWPv3 for multiple images with Run_hawp.py
+```bash
+  python Run_hawp.py
+  ```
