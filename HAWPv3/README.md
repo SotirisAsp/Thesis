@@ -33,7 +33,7 @@ sh downloads.sh
 ## Changes
 - Replace hawp/ssl/predict.py with predict.py from my repo.
    
-## Inferemce
+## Infereνce
 - Run HAWPv3 for multiple images with Run_hawp.py (from my repo)
 1) Specify input_folder and output_folder
 2) ext : (1) png -> images with wireframes (2) json -> json file with lines and junctions (3) txt -> txt with th predicted lines
@@ -41,7 +41,7 @@ sh downloads.sh
 ```bash
   python Run_hawp.py
   ```
-
+## Checkpoints
 |Model Name|Comments|MD5|
 |---|---|---|
 |[hawpv3-fdc5487a.pth](https://github.com/cherubicXN/hawp-torchhub/releases/download/HAWPv3/hawpv3-fdc5487a.pth)| Trained on the images of Wireframe dataset | fdc5487a43e3d42f6b2addf79d8b930d
