@@ -9,8 +9,7 @@
 - `HAWPv3/` → Περιέχει οδηγίες για το HAWPv3.
 - `SOLD2/` → Περιέχει οδηγίες για το SOLD2.
 
-## 🚀 Οδηγίες Χρήσης
-1. Κλώνος του repository:
-   ```bash
-   git clone https://github.com/SotirisAsp/Thesis.git
-   cd Thesis
+## Evaluation Datasets
+- HPatches Dataset (Sequence Release) : https://www.kaggle.com/datasets/javidtheimmortal/hpatches-sequence-release
+- RDNIM Dataset : 
+
