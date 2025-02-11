@@ -2,7 +2,7 @@
 
 Method for extracting wireframes (lines+junctions) from images.
 
-Original repo : [HAWPv3](https://github.com/cherubicXN/hawp)
+Original repo : [HAWP](https://github.com/cherubicXN/hawp)
 
 ## Installation 
 
