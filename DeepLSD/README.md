@@ -46,6 +46,9 @@ mkdir weights
 wget https://cvg-data.inf.ethz.ch/DeepLSD/deeplsd_wireframe.tar -O weights/deeplsd_wireframe.tar
 wget https://cvg-data.inf.ethz.ch/DeepLSD/deeplsd_md.tar -O weights/deeplsd_md.tar
 ```
-
+## Changes
+- Download  infer_for_multi.ipynb from my repo and place it at notebooks.
 ## Inference
+- Run infer_for_multi.ipynb. Change image_dir,output_dir and edges_dir.
+- Output -- images with edges and txt with edges.
 
