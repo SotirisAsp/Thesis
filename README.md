@@ -3,7 +3,7 @@ Repository for my Thesis project. Includes:
 - **DeepLSD**
 - **HAWPv3**
 - **SOLD2**
-- - **DexiNed**
+- **DexiNed**
 
 ## Repository
 - `DeepLSD/` → Instructions for implementing the DeepLSD method.
