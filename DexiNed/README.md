@@ -1,3 +1,6 @@
+## Instructions
+* [Video](https://www.youtube.com/watch?v=Hz0uU04B3U8)
+
 ## Installation
 First clone the repository and its submodules:
 ```
@@ -14,4 +17,9 @@ cd DexiNed
 * Other package like Numpy, h5py, PIL, json. 
 
 ## Download Checkpoints
-* Download from -> [Checkpoints](https://drive.google.com/file/d/1V56vGTsu7GYiQouCIKvTWl5UKCZ6yCNu/view)
+* Download from -> [Checkpoints](https://drive.google.com/file/d/1V56vGTsu7GYiQouCIKvTWl5UKCZ6yCNu/view) and place it into the DexiNed folder like: checkpoints/BIPED/10/
+
+## Inference
+*change line 200 from main.py to -> default=9,
+*place your images to 'data' folder
+*results to -> 'result' folder
